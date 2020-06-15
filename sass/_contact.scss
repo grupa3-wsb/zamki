@@ -100,13 +100,26 @@
             margin-bottom: 0;
         }
 
+        .map-img {
+
+
+            @include tablets {
+                display: none;
+            }
+        }
+
         .map {
+            display: none;
             width: 350px;
             height: 300px;
 
             @include tablets {
                 width: 350px;
                 height: 350px;
+            }
+
+            @include tablets {
+                display: block;
             }
         }
 
