@@ -11,19 +11,20 @@
   <!-- title- wpisać -->
   <title>Zamki dmuchane</title>
   <link rel="stylesheet" href="./sass/style.css">
-  <link rel="stylesheet" href="./sass/_menu.scss">
 </head>
 
 <body>
   <header class="header">
-    <div class="logo-mobile">
-      <img src="./image/zamek_logo-mobile-s.png" alt="logo" title="logo firmy" srcset="./image/zamek_logo.png 700w"
-        sizes="100vw">
+    <div class="wrapper">
+      <div class="logo-mobile">
+        <img src="./image/zamek_logo-mobile-s.png" alt="logo" title="logo firmy" srcset="./image/zamek_logo.png 700w"
+          sizes="100vw">
+      </div>
+      <h1>Nazwa Firmy</h1>
+      <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width=""
+        data-layout="box_count" data-action="like" data-size="small" data-share="false"></div>
+      <div class="img-cover"></div>
     </div>
-    <h1>Nazwa Firmy</h1>
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="box_count"
-      data-action="like" data-size="small" data-share="false"></div>
-    <div class="img-cover"></div>
   </header>
 
   <nav class="nav">
@@ -31,8 +32,8 @@
       <li><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
       <li><a href="aktualnosci.html" title="Aktualności ze świata firmy i zamków dmuchanych">Aktualności</a></li>
       <li><a href="firma.html" title="Informacje o firmie">O firmie</a></li>
-      <li><a href="oferta.html" title="Oferta firmy">Oferta</a></li>
-      <li><a href="kontakt.html" title="Informacje kontaktowe">Kontakt</a></li>
+      <li><a href="rent.html" title="Oferta firmy">Wynajem</a></li>
+      <li><a href="contact.html" title="Informacje kontaktowe">Kontakt</a></li>
     </ul>
   </nav>
   <main>
@@ -108,25 +109,25 @@
           <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/people">
           <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/people">
           <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/people">
-          <img class="img-item" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
+          <img class="img-main" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
         </picture>
         <picture>
           <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/nature">
           <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/nature">
           <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/nature">
-          <img class="img-item" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
+          <img class="img-main" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
         </picture>
         <picture>
           <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/animals">
           <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/animals">
           <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/animals">
-          <img class="img-item" src="https://placeimg.com/120/90/animals" alt="zjęcie_01">
+          <img class="img-main" src="https://placeimg.com/120/90/animals" alt="zjęcie_01">
         </picture>
         <picture>
           <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/arch">
           <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/arch">
           <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/arch">
-          <img class="img-item" src="https://placeimg.com/120/90/arch" alt="zjęcie_01">
+          <img class="img-main" src="https://placeimg.com/120/90/arch" alt="zjęcie_01">
         </picture>
       </div>
     </section>
@@ -154,7 +155,7 @@
     </section>
     <section class="contact-section" id="contact">
       <h2>Kontakt</h2>
-      <div class="contact">
+      <div class="contact-container">
         <div class="address">
           <ul class="list-items">
             <li class="item">Nazwa firmy</li>

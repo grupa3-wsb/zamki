@@ -1,31 +1,27 @@
 .header {
     width: 100%;
     padding: 10px 0;
-
-    display: grid;
-    // justify-content: space-evenly;
-    grid-template-columns: auto 100px 1fr 100px auto;
-    grid-template-rows: 1fr 1fr;
     padding: 5px 0;
     background-image: url("../image/1.png");
     background-size: contain;
     position: relative;
-
+    background-color: #a2f8f8;
 
     .img-cover {
 
         &:before {
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.5);
+            @include coverBgc;
         }
     }
+}
 
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    // justify-content: space-evenly;
+    grid-template-columns: auto 100px 1fr 100px auto;
+    grid-template-rows: 1fr 1fr;
 }
 
 .logo-mobile {

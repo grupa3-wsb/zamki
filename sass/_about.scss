@@ -29,13 +29,7 @@
     }
 
     p {
-        text-align: justify;
-        letter-spacing: 0.5px;
-        padding-bottom: 20px;
-
-        @include tablets {
-            line-height: 24px;
-        }
+        @include textDescription;
     }
 }
 
@@ -64,7 +58,7 @@
         width: 30%;
     }
 
-    picture {
+    .main-img {
         width: 47%;
 
         @include tablets {
@@ -76,7 +70,7 @@
         }
     }
 
-    .img-item {
+    .img-main {
         margin: 10px 0;
         border-radius: 10px;
         border-radius: 4px;
