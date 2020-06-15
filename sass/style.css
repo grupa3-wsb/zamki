@@ -710,7 +710,7 @@ h2 {
   height: 100%;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 769px) {
   .contact .map-container .map-img {
     display: none;
   }
@@ -722,14 +722,7 @@ h2 {
   height: 300px;
 }
 
-@media (min-width: 481px) {
-  .contact .map-container .map {
-    width: 350px;
-    height: 350px;
-  }
-}
-
-@media (min-width: 481px) {
+@media (min-width: 769px) {
   .contact .map-container .map {
     display: block;
   }
