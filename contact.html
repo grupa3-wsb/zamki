@@ -43,7 +43,7 @@
                     <li class="item">ul. Księcia Mieszka I</li>
                     <li class="item">61-001 Poznań, Polska</li>
                     <li class="item">tel: 123-456-789</li>
-                    <li class="item"><a href="mailto: nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
+                    <li class="item"><a href="mailto:nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
                 </ul>
             </div>
             <div class="contact-media">
@@ -67,23 +67,28 @@
                 </a>
             </div>
 
-            <div class="map-container">
-                <iframe class="map"
+            <div class="map-container" id="map" style="width:100%;height:400px;">
+                <!-- <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.4374343969184!2d16.918614415804313!3d52.434990279798285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47044354516689a5%3A0x7a99acf9d48786b7!2sKsi%C4%99cia%20Mieszka%20I%2C%2061-001%20Pozna%C5%84%2C%20Polska!5e0!3m2!1spl!2spt!4v1592232270751!5m2!1spl!2spt"
-                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
 
-
+            </div>
         </section>
 
     </main>
-    </div>
     <footer>
         <p class="copyright">&copy;2020 nazwa-firmy.pl</p>
     </footer>
 
-
+    <!-- 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0"
-        nonce="Hk5A1MLz"></script>
+        nonce="Hk5A1MLz"></script> -->
+    <script src="js/map.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP1HBAgXHowITiD7nyW-8RbMwOhwvuYtY&callback=initMap">
+
+    </script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>
