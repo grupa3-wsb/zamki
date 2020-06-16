@@ -2,17 +2,17 @@
     width: 100%;
     padding: 10px 0;
     padding: 5px 0;
-    background-image: url("../image/1.png");
-    background-size: contain;
-    position: relative;
+    // background-image: url("../image/1.png");
+    // background-size: contain;
+    // position: relative;
     background-color: #a2f8f8;
 
-    .img-cover {
+    // .img-cover {
 
-        &:before {
-            @include coverBgc;
-        }
-    }
+    //     &:before {
+    //         @include coverBgc;
+    //     }
+    // }
 }
 
 .wrapper {

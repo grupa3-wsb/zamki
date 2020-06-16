@@ -27,21 +27,7 @@ li {
   width: 100%;
   padding: 10px 0;
   padding: 5px 0;
-  background-image: url("../image/1.png");
-  background-size: contain;
-  position: relative;
   background-color: #a2f8f8;
-}
-
-.header .img-cover:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .wrapper {
