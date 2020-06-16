@@ -31,6 +31,11 @@
     p {
         @include textDescription;
     }
+
+    li {
+        list-style-type: circle;
+        margin-left: 10px;
+    }
 }
 
 .line {

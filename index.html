@@ -7,10 +7,11 @@
   <!-- meta description -->
   <meta name="description" content="Zamki dmuchane - znajdziesz tutaj informacje ....(wpisać tekst)">
   <!-- meta keywords -->
-  <meta name="keywords" content="zamki, ....">
+  <meta name="keywords" content="zamki dmuchane, ....">
   <!-- title- wpisać -->
   <title>Zamki dmuchane</title>
   <link rel="stylesheet" href="./sass/style.css">
+  <link rel="stylesheet" href="./sass/_menu.scss">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <img src="./image/zamek_logo-mobile-s.png" alt="logo" title="logo firmy" srcset="./image/zamek_logo.png 700w"
           sizes="100vw">
       </div>
-      <h1>Nazwa Firmy</h1>
+      <h1>Zamkowo</h1>
       <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width=""
         data-layout="box_count" data-action="like" data-size="small" data-share="false"></div>
       <div class="img-cover"></div>
@@ -30,9 +31,9 @@
   <nav class="nav">
     <ul>
       <li><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
-      <li><a href="aktualnosci.html" title="Aktualności ze świata firmy i zamków dmuchanych">Aktualności</a></li>
+      <li><a href="produkcja.html" title="Informacje o produkcji zamków dmuchanych">Produkcja</a></li>
       <li><a href="firma.html" title="Informacje o firmie">O firmie</a></li>
-      <li><a href="rent.html" title="Oferta firmy">Wynajem</a></li>
+      <li><a href="rent.html" title="Oferta sprzedaży zamków dmuchanych">Wynajem</a></li>
       <li><a href="contact.html" title="Informacje kontaktowe">Kontakt</a></li>
     </ul>
   </nav>
@@ -44,8 +45,8 @@
         <!-- wprowadzić unikatowe obrazki, alt i title? -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
-          <img src="https://placeimg.com/300/200/animals" srcset="https://placeimg.com/540/300/people 600w, https://placeimg.com/800/300/animals 800w,
-          https://placeimg.com/1000/300/animals 1000w" sizes="100vw" alt="obrazek" title="obrazek">
+          <img src="./image/zam4xs.jpg" srcset="./image/zam4s.jpg 600w, ./image/zam4m.jpg 800w,
+          ./image/zam4l.jpg 1000w" sizes="100vw" alt="promocja zamków">
           <div class="text">
             <h2>PROMOCJE ZAMKÓW</h2>
           </div>
@@ -53,8 +54,8 @@
 
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
-          <img src="https://placeimg.com/300/200/nature" srcset="https://placeimg.com/540/300/nature 600w, https://placeimg.com/800/300/nature 800w,
-          https://placeimg.com/1000/300/nature 1000w" sizes="100vw" alt="obrazek">
+          <img src="./image/zam2xs.jpg" srcset="./image/zam2s.jpg 600w, ./image/zam2m.jpg 800w,
+          ./image/zam2l.jpg 1000w" sizes="100vw" alt="najlepsze zamki dmuchane">
           <div class="text">
             <h2>Najtańsze ZAMKI</h2>
           </div>
@@ -62,8 +63,8 @@
 
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
-          <img src="https://placeimg.com/300/200/arch" srcset="https://placeimg.com/540/300/arch 600w, https://placeimg.com/800/300/arch 800w,
-          https://placeimg.com/1000/300/arch 1000w" sizes="100vw" alt="obrazek">
+          <img src="./image/zam1xs.jpg" srcset="./image/zam1s.jpg 600w, ./image/zam1m.jpg 800w,
+          ./image/zam1l.jpg 1000w" sizes="100vw" alt="wynajem zamków">
           <div class="text">
             <h2>Wypożycz zamek</h2>
           </div>
@@ -77,57 +78,63 @@
     <section class="about">
       <div class="text-container">
         <h2>O nas</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-          the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-          type
-          and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-          the
-          leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-          1960s
-          with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop
-          publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-        <h2>Produkcja</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-          the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-          type
-          and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-          the
-          leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-          1960s
-          with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-          desktop
-          publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Jesteśmy rodzinną, doświadczoną firmą o ugruntowanej pozycji na rynku rekreacyjnych dmuchanych konstrukcji.
+          Nasza firma od ponad dwóch dekad stawia na rzetelne podejście do klienta, zarówno biznesowego jak i
+          indywidualnego. Specjalizujemy się w produkcji i sprzedaży zamków dmuchanych, oraz innych konstrukcji
+          dmuchanych dedykowanych do zabawy na festynach, imprezach rodzinnych, parkach rozrywki, przedszkolach, ale
+          również w domowym ogrodzie.</p>
+        <p>Naszą ambicją jest zapewnienie dzieciom niezapomnianych wrażeń podczas spędzania wolnego czasu przy
+          jednoczesnej dbałości o ich bezpieczeństwo. Robimy wszystko co w naszej mocy, aby zapewnić maluchom
+          ekscytującą i bezpieczną rozrywkę – najważniejszy jest dla nas uśmiech dziecka i jego bezpieczeństwo!</p>
+        <p>Dzięki naszej ofercie możesz skorzystać z gotowych, zaprojektowanych przez nas rozwiązań, spełniających
+          wszelkie wymogi bezpieczeństwa i posiadających konieczne atesty. Jeśli masz swój pomysł na wykonanie zamku
+          dmuchanego, zjeżdżalni, bądź innej dmuchanej konstrukcji, nasz zespół, składający się m.in. z doświadczonych
+          inżynierów i utalentowanych grafików, z przyjemnością pomoże zaprojektować i wykonać każdą dmuchaną
+          konstrukcję – wszystko z odpowiednią dbałością o detale.<p>
+            <p>Swoje zamki produkujemy wyłącznie z bezpiecznych materiałów wysokiej jakości i udzielamy trzyletniej
+              gwarancji użytkowania na każdy wykonany przez nas produkt.</p>
+            <p>Do grona naszych kontrahentów należą m.in. organizatorzy imprez masowych, instytucje kultury, animatorzy,
+              parki rozrywki, szkoły, przedszkola, ośrodki wypoczynkowe. Nie wahaj się – dołącz do grona naszych
+              zadowolonych klientów i spraw dzieciom niebywałą frajdę i ekscytującą, wielogodzinną rozrywkę!</p>
+            <p>W naszej ofercie znajdziesz m.in.:
+              <ul>
+                <li>zamki dmuchane,</li>
+                <li>zjeżdżalnie,</li>
+                <li>suche baseny z piłkami,</li>
+                <li>dmuchane labirynty,</li>
+                <li>trampoliny</li>
+                <li>dmuchane namioty i domki,</li>
+                <li>wszelkie inne dmuchane konstrukcje wykonywane na zamówienie.</li>
+              </ul>
+            </p>
       </div>
       <div class="line"></div>
-      <!-- obrazki na stonie głównej-przykłady produktów -->
+
       <div class="images">
-        <!-- wpisać unikatowe alt i title -->
+        <!-- wpisać title -->
         <picture>
-          <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/people">
-          <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/people">
-          <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/people">
-          <img class="img-main" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
+          <source media="(min-width: 1100px)" srcset="./image/2b.jpg">
+          <source media="(min-width: 600px)" srcset="./image/2a.jpg">
+          <source media="(min-width: 520px)" srcset="./image/2.jpg">
+          <img class="img-main" src="./image/2.jpg" alt="zjeżdżalnia dmuchana">
         </picture>
         <picture>
-          <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/nature">
-          <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/nature">
-          <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/nature">
-          <img class="img-main" src="https://placeimg.com/120/90/people" alt="zjęcie_01">
+          <source media="(min-width: 1100px)" srcset="./image/6b.jpg">
+          <source media="(min-width: 600px)" srcset="./image/6a.jpg">
+          <source media="(min-width: 520px)" srcset="./image/6.jpg">
+          <img class="img-main" src="./image/6.jpg" alt="zameczek dmuchany">
         </picture>
         <picture>
-          <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/animals">
-          <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/animals">
-          <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/animals">
-          <img class="img-main" src="https://placeimg.com/120/90/animals" alt="zjęcie_01">
+          <source media="(min-width: 1100px)" srcset="./image/3b.jpg">
+          <source media="(min-width: 600px)" srcset="./image/3a.jpg">
+          <source media="(min-width: 520px)" srcset="./image/3.jpg">
+          <img class="img-main" src="./image/3.jpg" alt="trampolina dmuchana">
         </picture>
         <picture>
-          <source media="(min-width: 1100px)" srcset="https://placeimg.com/480/200/arch">
-          <source media="(min-width: 600px)" srcset="https://placeimg.com/230/160/arch">
-          <source media="(min-width: 520px)" srcset="https://placeimg.com/200/150/arch">
-          <img class="img-main" src="https://placeimg.com/120/90/arch" alt="zjęcie_01">
+          <source media="(min-width: 1100px)" srcset="./image/4b.jpg">
+          <source media="(min-width: 600px)" srcset="./image/4a.jpg">
+          <source media="(min-width: 520px)" srcset="./image/4.jpg">
+          <img class="img-main" src="./image/4.jpg" alt="huśtawka">
         </picture>
       </div>
     </section>
@@ -155,14 +162,14 @@
     </section>
     <section class="contact-section" id="contact">
       <h2>Kontakt</h2>
-      <div class="contact-container">
+      <div class="contact">
         <div class="address">
           <ul class="list-items">
             <li class="item">Nazwa firmy</li>
             <li class="item">Ulica numer</li>
             <li class="item">Kod pocztowy miasto</li>
             <li class="item">tel: 123-456-789</li>
-            <li class="item"><a href="mailto:nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
+            <li class="item"><a href="mailto: nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
           </ul>
         </div>
         <div class="media">
