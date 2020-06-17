@@ -762,4 +762,29 @@ footer {
   color: white;
   text-align: center;
 }
+
+.article picture{
+	float:left;
+	margin:20px 20px 20px 20px;
+}
+.article p{
+	margin:20px 20px 20px 20px;
+}
+.article li{
+	margin:20px 20px 20px 20px;
+	color: red;
+}
+.article::after{ 
+  content: ""; 
+  clear: both;
+  display: table;
+}
+h3 {
+  color: red;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
