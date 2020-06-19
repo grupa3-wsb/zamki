@@ -26,13 +26,20 @@
         </div>
     </header>
     <nav class="nav">
-        <ul>
-            <li><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
-            <li><a href="produkcja.html" title="Produkcja zamków dmuchanych">Produkcja</a></li>
-            <li><a href="sprzedaz.html" title="Sprzedaż zamków dmuchanych">Sprzedaż</a></li>
-            <li><a href="wynajem.html" title="Wynajem zamków dmuchanych">Wynajem</a></li>
-            <li><a href="kontakt.html" title="Informacje kontaktowe do firmy zamkowo">Kontakt</a></li>
+        <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+            <span class="menu-item"></span>
+            <span class="menu-item"></span>
+            <span class="menu-item"></span>
+        </a>
+        <ul class="nav-items">
+            <li class="nav-item"><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
+            <li class="nav-item"><a href="produkcja.html" title="Produkcja zamków dmuchanych">Produkcja</a></li>
+            <li class="nav-item"><a href="sprzedaz.html" title="Sprzedaż zamków dmuchanych">Sprzedaż</a></li>
+            <li class="nav-item"><a href="wynajem.html" title="Wynajem zamków dmuchanych">Wynajem</a></li>
+            <li class="nav-item"><a href="kontakt.html" title="Informacje kontaktowe do firmy zamkowo">Kontakt</a>
+            </li>
         </ul>
+
     </nav>
     <main>
         <div class="breadcrumbs">
@@ -43,11 +50,11 @@
             <h2>Skontaktuj się z nami</h2>
             <div class="address-container">
                 <ul class="list-items">
-                    <li class="item"><strong> Nazwa firmy</strong></li>
+                    <li class="item"><strong>Zamkowo</strong></li>
                     <li class="item">ul. Księcia Mieszka I</li>
                     <li class="item">61-001 Poznań, Polska</li>
                     <li class="item">tel: 123-456-789</li>
-                    <li class="item"><a href="mailto:nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
+                    <li class="item"><a href="mailto:zamkowo.poznan@gmail.com">email: zamkowo.poznan@gmail.com</a></li>
                 </ul>
             </div>
             <div class="contact-media">
@@ -84,6 +91,7 @@
     <footer>
         <p class="copyright">&copy;2020 nazwa-firmy.pl</p>
     </footer>
+    <script src="./js/mobile.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0"
         nonce="Hk5A1MLz"></script>
 </body>

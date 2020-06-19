@@ -31,15 +31,26 @@
   </header>
 
   <nav class="nav">
-    <ul>
-      <li><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
-      <li><a href="produkcja.html" title="Produkcja zamków dmuchanych">Produkcja</a></li>
-      <li><a href="sprzedaz.html" title="Sprzedaż zamków dmuchanych">Sprzedaż</a></li>
-      <li><a href="wynajem.html" title="Wynajem zamków dmuchanych">Wynajem</a></li>
-      <li><a href="kontakt.html" title="Informacje kontaktowe do firmy zamkowo">Kontakt</a></li>
+    <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+      <span class="menu-item"></span>
+      <span class="menu-item"></span>
+      <span class="menu-item"></span>
+    </a>
+    <ul class="nav-items">
+      <li class="nav-item"><a href="index.html" title="Strona główna firmy">Strona główna</a></li>
+      <li class="nav-item"><a href="produkcja.html" title="Produkcja zamków dmuchanych">Produkcja</a></li>
+      <li class="nav-item"><a href="sprzedaz.html" title="Sprzedaż zamków dmuchanych">Sprzedaż</a></li>
+      <li class="nav-item"><a href="wynajem.html" title="Wynajem zamków dmuchanych">Wynajem</a></li>
+      <li class="nav-item"><a href="kontakt.html" title="Informacje kontaktowe do firmy zamkowo">Kontakt</a></li>
     </ul>
+
   </nav>
   <main>
+    <div class="breadcrumbs">
+      <a href="index.html" title="Strona główna firmy">Strona główna</a> > <a href="sprzedaz.html"
+        title="Sprzedaż zamków dmuchanych">Sprzedaż</a> > <a href="piracki.html"
+        title="Zamek piraczki do kupienia">Zamek piracki</a>
+    </div>
     <!-- slajd-banner -->
     <section class="banner-section">
       <div class="banner slideshow">
@@ -129,45 +140,12 @@
         </div>
       </div>
     </section>
-    <!-- sekcja przerzucona do osobnej podstrony Kontakt
-    <section class="contact-section" id="contact">
-      <h2>Kontakt</h2>
-      <div class="contact-container">
-        <div class="address">
-          <ul class="list-items">
-            <li class="item">Nazwa firmy</li>
-            <li class="item">Ulica numer</li>
-            <li class="item">Kod pocztowy miasto</li>
-            <li class="item">tel: 123-456-789</li>
-            <li class="item"><a href="mailto:nazwa.firmy@gmail.com">email: nazwa.firmy@gmail.com</a></li>
-          </ul>
-        </div>
-        <div class="media">
-          <a href="https://www.messenger.com/" target="_blank">
-            <div class="media-item"><img src="./image/messenger.png" alt="messanger-icon"
-                title="napisz widomośc na messenger"></div>
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <div class="media-item"><img src="./image/instagram.png" alt="instagram-icon"
-                title="obserwój zamki na instagramie"></div>
-          </a>
-          <a href="https://www.whatsapp.com/" target="_blank">
-            <div class="media-item"><img src="./image/whatsapp.png" alt="whatsapp-icon"
-                title="skontaktuj się na whatsapp"></div>
-          </a>
-          <a href="https://pl.pinterest.com/">
-            <div class="media-item"><img src="./image/pinterest.png" alt="pinterest-icon"
-                title="obejrzyj zamki na pinterest"></div>
-          </a>
-        </div>
-      </div>
-    </section>
--->
+
   </main>
   <footer>
     <p class="copyright">&copy;2020 zamkowo.pl</p>
   </footer>
-
+  <script src="./js/mobile.js"></script>
   <script src="./js/slide.js"></script>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v7.0"
     nonce="Hk5A1MLz"></script>
