@@ -215,6 +215,8 @@ h1 {
 
 @media (min-width: 640px) {
   .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
