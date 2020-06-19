@@ -37,7 +37,6 @@ li {
 
 .wrapper {
   max-width: 1400px;
-  width: 95%;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
@@ -45,6 +44,12 @@ li {
   grid-template-columns: auto 100px 1fr 100px auto;
   -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    width: 95%;
+  }
 }
 
 .logo-mobile {
