@@ -855,4 +855,8 @@ h3 {
   padding-top: 20px;
 }
 
+b, strong {
+text-weight: bold
+}
+
 /*# sourceMappingURL=style.css.map */
