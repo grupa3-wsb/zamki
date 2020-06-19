@@ -194,7 +194,6 @@ h1 {
 .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   width: 100%;
   max-width: 1400px;
   height: 100%;
@@ -204,9 +203,16 @@ h1 {
   -ms-flex-pack: center;
   justify-content: center;
   align-items: center;
-  display: none;
   flex-wrap: wrap;
+  display: none;
 }
+
+@media (min-width: 640px) {
+  .nav ul {
+    display: flex;
+  }
+}
+
 
 .nav ul li {
   text-align: center;
@@ -234,13 +240,6 @@ h1 {
   font-size: 18px;
 }
 
-@media (min-width: 640px) {
-  .nav ul {
-    display: flex;
-  }
-
-
-}
 
 main {
   min-height: 100vh;
